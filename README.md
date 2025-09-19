@@ -1,5 +1,4 @@
-# Django admin
-
+# Django ORM
 Сервис для хранения заметок с категориями и статусами и Админкой.  
 Проект построен на **Django** и **PostgreSQL**, запускается в контейнерах с помощью **Docker Compose**.  
 
@@ -53,17 +52,17 @@ http://localhost:8000/admin
 ## 📷 Примеры ответов API
 
 ### 🔹 Главная страница Все заметки (`""`)
-![Главная страница](notebook_project/static/notes/note_list.png)
+![Главная страница](notes_service/static/notes/note_list.png)
 
 ---
 
 ### 🔹 Заметка по ID (`note/<int:note_id>/`)
-![Заметка по ID](notebook_project/static/notes/note_detail.png)
+![Заметка по ID](notes_service/static/notes/note_detail.png)
 
 ---
 
 ### 🔹 Пользователь по ID (`user/<int:user_id>/`)
-![Заметка по ID](notebook_project/static/notes/user_detail.png)
+![Заметка по ID](notes_service/static/notes/user_detail.png)
 
 ---
 
